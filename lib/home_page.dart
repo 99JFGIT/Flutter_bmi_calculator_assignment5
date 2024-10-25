@@ -45,7 +45,7 @@ class _HomePageState extends State<HomePage> {
               child: Container(
                 child: Column(
                   children: [
-                    Text("Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women.",),
+                    Text("Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women." ,style: TextStyle(fontWeight: FontWeight.bold),),
                     Text("Step-1: Enter your weight and height",),
                     Text("Step-2: Select 'Calculate BMI' and your BMI will appear.",),
                   ],
